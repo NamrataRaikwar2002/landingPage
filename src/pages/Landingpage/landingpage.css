@@ -1,0 +1,50 @@
+.landingView {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.toastText {
+    font-size: 18px;
+    color: var(--text-color);
+}
+
+.transformText {
+    font-size: 18px;
+
+}
+
+.toastBg {
+    background-color: oklch(0.623 0.214 259.815);
+    display: flex;
+    border-radius: 10rem;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+.transformImage {
+    /* width: 640px; */
+    height: 320px;
+    width: 50rem;
+}
+
+.centerPart {
+    display: flex;
+    gap: 2rem;
+}
+
+.centerleft {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.googlebtn {
+    background-color: oklch(0.707 0.165 254.624);
+}
+
+.btns {
+    display: flex;
+    gap: 1rem;
+}
